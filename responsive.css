@@ -1,0 +1,124 @@
+@media screen and (max-width:700px){
+   
+    .nav-container{
+  
+        flex-direction: column;
+      }
+      .nav-items-container{
+     
+         flex-direction: column;
+         width: 100%;
+          
+      }
+      .nav-items-container a{
+          margin-top: 10px;
+      }
+      .nav-items-container .login-btn{
+          width:100%;
+          text-align: center;
+          margin-bottom: 10px;
+      }
+      /* nav responsive ends */
+      .banner-container{
+        flex-direction: column;
+        
+      }
+      .banner-text{
+  
+          width:100%;
+          margin-bottom: 20px;
+          
+      }
+      .banner-img{
+       
+          width:100%;
+      }
+      .banner-text h1{
+          font-size:30px;
+      }
+      .banner-text p{
+          font-size:25px;
+      }
+      .banner-text .banner-icon{
+          width:30%;
+      }
+      .fa-brands{
+          font-size: 20px;
+      } .grid-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .discount-container{
+    
+        flex-direction: column;
+        gap: 10px;
+         
+     }
+     .discount-img,.discount-text{
+         width: 100%;
+         }
+ }
+
+/* ---------------------------------- */
+
+@media screen and (max-width:576px){
+    .nav-container{
+  
+      flex-direction: column;
+    }
+    .nav-items-container{
+   
+       flex-direction: column;
+       width: 100%;
+        
+    }
+    .nav-items-container a{
+        margin-top: 10px;
+    }
+    .nav-items-container .login-btn{
+        width:100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /* nav responsive ends */
+    .banner-container{
+      flex-direction: column;
+      
+    }
+    .banner-text{
+
+        width:100%;
+        margin-bottom: 20px;
+        
+    }
+    .banner-img{
+     
+        width:100%;
+    }
+    .banner-text h1{
+        font-size:30px;
+    }
+    .banner-text p{
+        font-size:25px;
+    }
+    .banner-text .banner-icon{
+        width:30%;
+    }
+    .fa-brands{
+        font-size: 20px;
+    }
+    /* banner section ends */
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    /* product section ends */
+    .discount-container{
+    
+       flex-direction: column;
+       gap: 10px;
+        
+    }
+    .discount-img,.discount-text{
+        width: 100%;
+        }
+   /* discount section end */
+}
